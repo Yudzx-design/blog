@@ -1,9 +1,0 @@
-
-document.addEventListener('DOMContentLoaded', () => {
-    const buttons = document.querySelectorAll('.btn');
-    buttons.forEach(button => {
-        button.addEventListener('click', () => {
-            alert('Button clicked! Customize this action as needed.');
-        });
-    });
-});
