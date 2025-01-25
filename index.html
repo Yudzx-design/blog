@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Halaman Login -->
+    <div class="login-container" id="login-container">
+        <h1>LOGIN TO CONTINUE</h1>
+        <p>Masukkan Username dan Password</p>
+        <div class="login-form">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <div class="social-links">
+                <a href="https://www.tiktok.com/@yudzxnxx" target="_blank">
+                    <img src="tiktok-logo.png" alt="TikTok">
+                </a>
+                <a href="https://www.instagram.com/yudzsenpai_" target="_blank">
+                    <img src="instagram-logo.png" alt="Instagram">
+                </a>
+            </div>
+            <button onclick="login()">Login</button>
+            <p id="error-message">Username atau Password salah!</p>
+        </div>
+    </div>
+
+    <!-- Halaman Download -->
+    <div class="download-container" id="download-container" style="display: none;">
+        <h1>Download Files</h1>
+        <p>Pilih file untuk diunduh:</p>
+        <ul class="file-list">
+            <li><a href="file1.zip" download>BEDROCK SERVER</a></li>
+            <li><a href="scweb.zip" download>SCRIPT WEBSITE</a></li>
+            <li><a href="simple_blog.zip" download>SCRIPT BLOG</a></li>
+            <li><a href="Vanilla-Bedrock.json" download>EGG BEDROCK</a></li>
+            <li><a href="EGG-YUDZX.json" download>EGG BOT WA</a></li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
